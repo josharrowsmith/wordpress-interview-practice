@@ -1,0 +1,118 @@
+.carousel{
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.carousel-item img {
+    max-height: 32rem;
+}
+
+/*  */
+.carousel-control-prev-icon {
+    background-color: #e2534b;
+    padding: 25px 20px 25px 20px;
+    border-radius: 0 10px 10px 0;
+    background-image: url("./img/left-arrow.png");
+    background-size: auto;
+}
+
+.carousel-control-next-icon {
+    background-color: #e2534b;
+    padding: 25px 20px 25px 20px;
+    border-radius: 10px 0 0 10px;
+    background-image: url("./img/right-arrow.png");
+    background-size: auto;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: .8;
+}
+
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+
+.carousel-control-next{
+    justify-content: flex-end;
+}
+
+/*  */
+.carousel-indicators .active{
+    background-color: #e2534b;
+}
+
+.carousel-indicators li{
+    background-color: #b0b8b9;
+}
+
+.carousel-indicators{
+    bottom: -2.5rem;
+}
+/*  */
+
+.tab{
+    padding-top: 2.5rem;
+    background-color: #f8f8f8;
+    height: 19rem;
+    border-bottom: 5px solid #e5e6e6;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tab-icon i{
+    color: #62bdbd;
+    font-size: 4.5rem;
+    padding-bottom: .6rem;
+}
+
+
+.tab-btn button{
+    background-color: #76c7c0;
+    color: #fff;
+    border-bottom: 3px solid #62b9b0;
+    width: 9rem;
+    margin-top: .9rem;
+}
+
+.tab-btn button:active{
+    border-top: 2px solid #e2534b;
+    border-bottom: transparent;
+    background-color: #bd443e;
+}
+
+.tab:hover .tab-icon i{
+    color: #e2534b;
+}
+
+.tab:hover .tab-btn button{
+    background-color: #e8645a;
+    border-bottom: 3px solid #e2534b;
+}
+
+.tab:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.tab-details{
+    font-family: BLOKK;
+}
+
+@media only screen and (max-width: 100%), (max-height: 100%) {
+    .tab {
+        margin: 0 1rem 2rem 1rem;
+    }
+
+    .tab-btn button{
+        margin-top: 2.2rem;
+    }
+
+    .carousel{
+        padding-top: 3.5rem;
+    }
+
+    .dropdown-menu:after {
+        border-bottom-color: transparent;
+    }
+
+}
